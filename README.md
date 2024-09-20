@@ -12,7 +12,7 @@
 
 ## Pseudocode
 
-// Step 1: Create a new order
+// / Step 1: Create a new order
 orderNumber = generateNewOrderNumber()
 INSERT INTO orders (orderNumber, orderDate, requiredDate, shippedDate, status, customerNumber)
 VALUES (orderNumber, currentDate(), requiredDate(3 days later), shippedDate(2 days later), 'In Process', 145)
